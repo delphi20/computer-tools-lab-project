@@ -8,7 +8,7 @@ This repository contains a simple neural network model built using TensorFlow an
 
 The neural network model consists of three dense (fully connected) layers:
 1. Input layer with 784 neurons (flattened 28x28 images)
-2. Two hidden layers, each with 128 neurons and ReLU activation function
+2. Two hidden layers, each with 32 neurons and ReLU activation function
 3. Output layer with 10 neurons and softmax activation function
 
 ## Dataset
