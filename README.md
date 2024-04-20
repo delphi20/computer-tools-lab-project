@@ -21,7 +21,7 @@ The model is trained for 3 epochs using stochastic gradient descent (SGD) as the
 
 ## Evaluation
 
-After training, the model is evaluated using the test dataset to calculate accuracy. The model achieves an accuracy of approximately [INSERT ACCURACY HERE]% on the test set.
+After training, the model is evaluated using the test dataset to calculate accuracy. The model achieves an accuracy of approximately 94.65% on the test set.
 
 ## Predictions
 
@@ -31,9 +31,10 @@ The model makes predictions on the test dataset, and 25 samples along with their
 
 Below is a visualization of 25 samples from the test dataset along with their predicted values:
 
-[INSERT IMAGE OF SAMPLE PREDICTIONS HERE]
+![image](https://github.com/delphi20/computer-tools-lab-project/assets/65653514/701fd633-70c1-41b1-af9e-3568258be67c)
+
 
 ## Additional Information
 
-For more detailed information, you can refer to the Python script `mnist_model.py` in the repository.
+For more detailed information, you can refer to the Python script `Unimproved_machine_learning` in the repository.
 
