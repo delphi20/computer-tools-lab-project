@@ -1,11 +1,11 @@
 import tensorflow as tf
-from tensorflow.keras.datasets import mnist
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-import numpy as np
+from tensorflow import keras    #I imported these like this instead of the way its done in notebook because vs code gives error
+from keras.datasets import mnist
+from keras.utils import to_categorical
+from keras.models import Sequential
+from keras.layers import Dense
 from matplotlib import pyplot as plt
+import numpy as np
 
 # Load data
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
